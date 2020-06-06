@@ -1,0 +1,16 @@
+{
+  "name": "tailwindcss-resume-website",
+  "version": "1.0.0",
+  "description": "This is my reume website built using tailwind css",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss css/tailwind.css -o css/style.css"
+  },
+  "author": "Pradeep Nayak",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^9.8.0",
+    "postcss-cli": "^7.1.1",
+    "tailwindcss": "^1.4.6"
+  }
+}
