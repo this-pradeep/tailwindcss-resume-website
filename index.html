@@ -7,16 +7,22 @@
     <meta name="theme-color" content="#3ED27E">
     <meta name="author" content="Pradeep Nayak">
     <meta name="title" content="Graphics Designer & Full Stack Web Developer">
-    <meta name="description" content="I have been designing and developing websites & web apps since may 2019. if you want a website for you or your business make sure to contact me.">
+    <meta name="description"
+        content="I have been designing and developing websites & web apps since may 2019. if you want a website for you or your business make sure to contact me.">
     <title>Home- Pradeep Nayak</title>
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
 
 <body class="bg-gray-900">
     <div class="h-3 bg-the-green"></div>
     <div class="relative container">
         <a href="#contact"
-            class="inline-block text-white px-3 py-1 rounded-lg mt-3 mr-3 absolute right-0 top-0 bg-the-secondary hover:bg-gray-700 hover:shadow-md">Contact
+            class="inline-block text-white px-3 py-1 rounded-lg mt-3 mr-3 absolute right-0 top-0 bg-gray-700 hover:bg-gray-600 hover:shadow-md">Contact
             me</a>
     </div>
     <section>
@@ -25,56 +31,58 @@
             <img class="object-cover hidden sm:block" src="./img/Repeat Grid 1.png" alt="">
         </div>
         <div class="container mx-auto relative">
-            <div class="mt-5 ml-5 mb-3">
-                <h1 class="text-4xl font-bold text-white ">Greetings! <br> I'm Pradeep Nayak</h1>
-                <p class="text-2xl text-own-blue">Graphic Designer & Full Stack Web Developer</p>
+            <div class=" sm:flex sm:flex-row sm:justify-between sm:align-middle">
+                <div class="mt-5 ml-5 mb-3 sm:my-auto lg:my-32">
+                    <h1 class="text-4xl font-bold text-white lg:text-5xl ">Greetings! <br> I'm Pradeep Nayak</h1>
+                    <p class="text-2xl text-own-blue">Graphic Designer & Full Stack Web Developer</p>
+                </div>
+                <div>
+                    <img  class="object-cover" src="./img/Group 133.png" alt="">
+                </div>
             </div>
-            <div>
-                <img class="object-cover" src="./img/Group 133.png" alt="">
-            </div>
-            <div class="mx-3 py-10 px-6 bg-the-secondary rounded-lg ">
-                <h4 class="text-2xl mb-2 font-bold text-white text-center">About me</h4>
-                <p class="text-lg text-own-blue text-center">I started my journey as a Graphics Designer after passing
+            <div class="mx-3 py-10 px-6 bg-the-secondary rounded-lg sm:absolute sm:mx-10 md:bottom-0 md:-mb-32 lg:-mb-16 lg:max-w-screen-lg lg:mx-24">
+                <h4 class="text-2xl mb-2 font-bold text-white text-center sm:text-left">About me</h4>
+                <p class="text-lg text-own-blue text-center sm:text-left">I started my journey as a Graphics Designer after passing
                     class 12th. Then I opted to Bachelor of Computer Applications to learn about programming. Having
                     good background in graphics design and learning programming languages helped me to build my career
                     as a Full Stack Web Developer. </p>
             </div>
         </div>
-    </section>
-    <section>
+    </section><br>
+    <section class="sm:mt-10">
         <div class="container mx-auto my-10">
-            <div class="mx-3">
+            <div class="mx-3 sm:mt-32 lg:mt-24">
                 <h1 class="mb-5 text-2xl font-bold text-center text-white">My Technology Stack</h1>
-                <img src="./img/techstack.png" alt="">
+                <img class="sm:max-w-2xl sm:mx-auto lg:max-w-4xl" src="./img/techstack.png" alt="">
             </div>
         </div>
-    </section>
+    </section><br>
     <section class="bg-the-secondary">
         <div class="container mx-auto py-5">
             <h1 class="mb-8 text-2xl font-bold text-center text-white">Experience</h1>
-            <div class="mx-4">
-                <div class="block my-5">
-                    <img class="mx-auto mb-3" src="./img/user.png" alt="">
-                    <p class="text-lg text-center text-own-blue">Graphics Designer at Marketing & Event Management
+            <div class="mx-4 flex flex-col align-middle justify-center sm:flex-row sm:mx-auto">
+                <div class=" my-5 sm:mx-5">
+                    <img class="mx-auto mb-3 sm:ml-0" src="./img/user.png" alt="">
+                    <p class="text-lg text-center text-own-blue sm:text-left">Graphics Designer at Marketing & Event Management
+                        Company named Evenmark. (Mar 2019 - Sept 2019)</p>
+                </div>
+                <div class=" my-5 sm:mx-5">
+                    <img class="mx-auto mb-3 sm:ml-0" src="./img/user.png" alt="">
+                    <p class="text-lg text-center text-own-blue sm:text-left">Graphics Designer at Marketing & Event Management
                         Company named Evenmark.(Mar 2019 - Sept 2019)</p>
                 </div>
-                <div class="block my-5">
-                    <img class="mx-auto mb-3" src="./img/user.png" alt="">
-                    <p class="text-lg text-center text-own-blue">Graphics Designer at Marketing & Event Management
-                        Company named Evenmark.(Mar 2019 - Sept 2019)</p>
-                </div>
-                <div class="block my-5">
-                    <img class="mx-auto mb-3" src="./img/user.png" alt="">
-                    <p class="text-lg text-center text-own-blue">Graphics Designer at Marketing & Event Management
+                <div class=" my-5 sm:mx-5">
+                    <img class="mx-auto mb-3 sm:ml-0" src="./img/user.png" alt="">
+                    <p class="text-lg text-center text-own-blue sm:text-left">Graphics Designer at Marketing & Event Management
                         Company named Evenmark.(Mar 2019 - Sept 2019)</p>
                 </div>
             </div>
         </div>
     </section><br>
     <section>
-        <div class="container mx-auto ">
-            <h1 class="mb-8 text-2xl font-bold text-center text-white">Education</h1>
-            <div class="flex flex-col">
+        <div class="container mx-auto">
+            <h1 class="mb-8 text-2xl font-bold text-center text-white sm:mt-5">Education</h1>
+            <div class="flex flex-col sm:flex-row sm:justify-between sm:align-middle">
                 <div class="bg-the-secondary py-5 px-5 m-3 rounded-lg flex flex-col justify-around align-middle">
                     <div class="flex flex-row align-middle justify-between mx-4 mb-2">
                         <div>
@@ -125,8 +133,8 @@
     <section>
         <div class="container mx-auto ">
             <h1 class="mb-8 text-2xl font-bold text-center text-white">My Skills</h1>
-            <div class="flex flex-col">
-                <div class="bg-the-secondary py-5 px-5 m-3 rounded-lg flex flex-col justify-around align-middle">
+            <div class="flex flex-col sm:flex-row sm:justify-center sm:align-top">
+                <div class="bg-the-secondary py-5 inline-block px-5 m-3 rounded-lg flex flex-col justify-start align-top lg:w-1/4">
                     <div class=" mx-4 mb-2 pb-2 border-b border-blue-300">
                         <h5 class="text-lg font-bold text-white text-center">Graphics Design</h5>
                     </div>
@@ -138,7 +146,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="bg-the-secondary py-5 px-5 m-3 rounded-lg flex flex-col justify-around align-middle">
+                <div class="bg-the-secondary py-5 px-5 m-3 rounded-lg flex flex-col justify-start align-top lg:w-1/4">
                     <div class=" mx-4 mb-2 pb-2 border-b border-blue-300">
                         <h5 class="text-lg font-bold text-white text-center">Frameworks & Tools</h5>
                     </div>
@@ -155,7 +163,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="bg-the-secondary py-5 px-5 m-3 rounded-lg flex flex-col justify-around align-middle">
+                <div class="bg-the-secondary py-5 px-5 m-3 rounded-lg flex flex-col justify-start align-top lg:w-1/4">
                     <div class=" mx-4 mb-2 pb-2 border-b border-blue-300">
                         <h5 class="text-lg font-bold text-white text-center">Web Development</h5>
                     </div>
@@ -174,7 +182,7 @@
     <!-- last section begin -->
     <section>
         <div class="container mx-auto">
-            <div class="flex flex-col mx-5 sm:flex-row sm:justify-between sm:my-auto">
+            <div class="flex flex-col mx-5 sm:flex-row sm:justify-around sm:my-auto">
                 <div class="sm:my-auto">
                     <div>
                         <h1 class="mb-5 text-2xl font-bold text-white">Languages</h1>
@@ -233,23 +241,23 @@
                         </ul>
                     </div>
                 </div>
-                <div class="bg-the-secondary rounded-lg my-5 pt-6 pb-2">
+                <div class="bg-the-secondary rounded-lg my-5 px-2 pt-6 pb-2 sm:px-8">
                     <h1 class="mb-5 text-2xl text-center font-bold text-white">Contact me</h1>
                     <div class="py-5" id="contact">
                         <div class="border-b border-blue-300 mx-2">
                             <img class="h-32 w-32 mx-auto mb-10" src="./img/user.png" alt="">
-                            <p class="text-own-blue text-center text-xl my-3">+91 7470407696</p>
-                            <p class="text-own-blue text-center text-xl my-3">nayak54325@gmail.com</p>
-                            <p class="text-own-blue text-center text-xl my-3">342, Vaibhav Laxmi Nagar, Behind Velocity Cinema Indore(M.P.)</p>
+                            <p class="text-own-blue text-center text-lg my-3">+91 7470407696</p>
+                            <p class="text-own-blue text-center text-lg my-3">nayak54325@gmail.com</p>
+                            <p class="text-own-blue text-center text-lg my-3">342, Vaibhav Laxmi Nagar, Behind Velocity
+                                Cinema Indore(M.P.)</p>
                         </div>
                         <div class="flex flex-row justify-between align-middle mx-2 mt-5">
                             <p class="text-own-blue text-lg font-medium">find me on:</p>
                             <div class="flex flex-row align-middle">
-                                <a href="#" class="mx-1"><img src="./img/logo.png" alt=""></a>    
-                                <a href="#" class="mx-1"><img src="./img/003-whatsapp.png" alt=""></a>    
-                                <a href="#" class="mx-1"><img src="./img/010-linkedin.png" alt=""></a>    
-                                <a href="#" class="mx-1"><img src="./img/011-instagram.png" alt=""></a>    
-                                <a href="#" class="mx-1"><img src="./img/001-facebook.png" alt=""></a>    
+                                <a href="https://github.com/the-nayak" target="_blank" class="mx-1"><img src="./img/logo.png" alt=""></a>
+                                <a href="telto:+91 7470407696" class="mx-1"><img src="./img/003-whatsapp.png" alt=""></a>
+                                <a href="https://www.linkedin.com/in/pradeep-nayak-3675b2172" target="_blank" class="mx-1"><img src="./img/010-linkedin.png" alt=""></a>
+                                <a href="https://www.instagram.com/0pradeep_nayak/" target="_blank" class="mx-1"><img src="./img/011-instagram.png" alt=""></a>
                             </div>
                         </div>
                     </div>
@@ -257,10 +265,12 @@
             </div>
         </div>
     </section><br>
-    <footer class="bg-the-secondary">
+    <footer class="bg-the-secondary py-4">
         <div class="container mx-auto">
-            <div>
-                <p class="text-own-blue text-base text-center">Designed & Developed with <img class="w-10 h-10 inline-block" src="./img/hear.gif" alt="">by Pradeep Nayak </p>
+            <div class="">
+                <p class="text-own-blue text-base text-center">Designed & Developed with <img
+                        class="w-10 h-10 inline-block" src="./img/hear.gif" alt="">by Pradeep Nayak </p>
+                <p class="text-gray-600 text-base text-center">Disclaimer: logos on this website are intellectual properties of their respective owners.</p>
             </div>
         </div>
     </footer>
